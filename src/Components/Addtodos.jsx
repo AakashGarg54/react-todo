@@ -1,14 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from "react-router-dom";
 
-window.$name = []
-window.$index1 = -1
-
-export function edit(_todo, index) {
-  window.$name = _todo
-  window.$index1 = index
-}
-
 function Addtodos(props) {
 
   let history = useHistory();
